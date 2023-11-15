@@ -78,7 +78,6 @@ class Biblioteca:
                     "container": {"background-color": "transparent"}
                 }
             )
-            st.session_state
         self.paginas_navegaveis[destino]()
 
     def visualizacoes_inciais(self, _):

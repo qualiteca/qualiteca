@@ -30,8 +30,6 @@ class Emprestimos:
         self.placeholder_visualizar = st.empty()
 
     def titulo(self):
-        st.write(Livro.disponiveis())
-
         with self.placeholder_titulo.container():
 
             st.header(self.nome, divider='orange')
